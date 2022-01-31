@@ -1,10 +1,3 @@
-/*
- * mqttclient_if.c
- *
- *  Created on: Jan 22, 2020
- *      Author: a0227533
- */
-
 #include <mqtt_if.h>
 
 #include <stdlib.h>

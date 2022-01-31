@@ -1,9 +1,3 @@
-/*
- * sensor_stat_queue.h
- *
- *  Created on: jan 12, 2022
- *      Author: Yash
- */
 
 #ifndef SENSOR_STAT_QUEUE_H_
 #define SENSOR_STAT_QUEUE_H_

@@ -1,10 +1,3 @@
-/*
- * common.h
- *
- *  Created on: jan 12, 2022
- *      Author: Yash
- */
-
 #ifndef COMMON_H_
 #define COMMON_H_
 
@@ -13,6 +6,6 @@
 #define CHAIN3 3
 #define CHAIN4 4
 
-#define BOARD_NAME CHAIN4
+#define BOARD_NAME CHAIN3
 
 #endif /* COMMON_H_ */

@@ -1,10 +1,3 @@
-/*
- * mqtt_module.h
- *
- *  Created on: Jan 21, 2020
- *      Author: a0227533
- */
-
 #ifndef MQTT_IF_H_
 #define MQTT_IF_H_
 

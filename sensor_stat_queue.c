@@ -1,10 +1,3 @@
-/*
- * sensor_stat_queue.c
- *
- *  Created on: jan 12, 2022
- *      Author: Yash
- */
-
 #include "sensor_stat_queue.h"
 #include <stdio.h>
 

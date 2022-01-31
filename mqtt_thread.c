@@ -505,14 +505,12 @@ MQTT_DEMO:
         ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN1/Timer500", MQTT_QOS_0, timer500);
         ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN2/Timer500", MQTT_QOS_0, timer500);
         ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN3", MQTT_QOS_0, chainCB);
-        //ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN4", MQTT_QOS_0, chainCB);
     #elif(BOARD_NAME == CHAIN4)
         ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN1/Timer70", MQTT_QOS_0, timer70);
         ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN2/Timer70", MQTT_QOS_0, timer70);
         ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN1/Timer500", MQTT_QOS_0, timer500);
         ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN2/Timer500", MQTT_QOS_0, timer500);
         ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN4", MQTT_QOS_0, chainCB);
-        //ret |= MQTT_IF_Subscribe(mqttClientHandle, "CHAIN3", MQTT_QOS_0, chainCB);
     #endif
     if(ret < 0){
         while(1);
@@ -546,7 +544,7 @@ MQTT_DEMO:
                      cc32xx_timer70.publication,
                      queueElement.dataValue);
 
-            /* Publishes JSON object to MQTT */
+            /* Publishes JSON object to AirMQTT */
             MQTT_IF_Publish(mqttClientHandle,
                             cc32xx_timer70.topic,
                             payload,
@@ -570,7 +568,7 @@ MQTT_DEMO:
                      queueElement.dataValue,
                      queueElement.dataValue2);
 
-            /* Publishes JSON object to MQTT */
+            /* Publishes JSON object to AirMQTT */
             MQTT_IF_Publish(mqttClientHandle,
                             cc32xx_timer500.topic,
                             payload,

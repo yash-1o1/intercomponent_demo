@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>demo_intercomponent</name>
+	<name>Intercompounent</name>
 	<comment></comment>
 	<projects>
 		<project>freertos_builds_CC3220SF_LAUNCHXL_release_ccs</project>
