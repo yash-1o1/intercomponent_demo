@@ -151,9 +151,9 @@ The application proceeds to subscribe to 4 default topics for illustration purpo
 Now the client can receive publish messages from the broker.
 In this example the topics in the left will toggle the LEDs in the right
      
-							"cc32xx/ToggleLEDCmdL1" <-------------> toggle LED0  
-							"cc32xx/ToggleLEDCmdL2" <-------------> toggle LED1  
-							"cc32xx/ToggleLEDCmdL3" <-------------> toggle LED2   
+"cc32xx/ToggleLEDCmdL1" <-------------> toggle LED0  
+"cc32xx/ToggleLEDCmdL2" <-------------> toggle LED1  
+"cc32xx/ToggleLEDCmdL3" <-------------> toggle LED2   
 
 
 The user can invoke more commands by pressing the push buttons on the CC32xx launchpad device: 
